@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my chat app</title>
+    <link rel="stylesheet" href="/chat.css">
+  </head>
+  <body>
+    <h1>my chat app</h1>
+
+    <ul id="chatters"></ul>
+    <div id="chat-console"></div>
+
+    <form id="chat-form">
+      <input type="text" name="chat-input" id="chat-input" placeholder="type your message here ..." autofocus autocomplete="off">
+      <br/>
+      <input type="submit" value="send"/>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/chat.js"></script>
+  </body>
+</html>
