@@ -12,5 +12,6 @@ A simple chat application based on Code School's Realtime Web With Node course
 
 ## TODO
 
-Implement persist messages
-Implement chatter left
+- Implement persist messages
+
+- Implement chatter left
