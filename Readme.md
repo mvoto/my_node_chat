@@ -5,7 +5,9 @@ A simple chat application based on Code School's Realtime Web With Node course
 ## running
 
 ```npm install```
+
 ```redis-server &```
+
 ```node app.js```
 
 ## TODO
